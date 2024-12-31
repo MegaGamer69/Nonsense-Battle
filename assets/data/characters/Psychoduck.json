@@ -1,0 +1,78 @@
+{
+	"name": "Psicopato",
+	"description": "Psicopato é um mercenário assasino, usando uma roupa de detetive. (Não me pergunte nada)",
+	"statusPerLvl": [
+		{
+			"hp": 40,
+			"dmg": 12
+		},
+		{
+			"hp": 45,
+			"dmg": 22
+		},
+		{
+			"hp": 50,
+			"dmg": 32
+		},
+		{
+			"hp": 55,
+			"dmg": 42
+		},
+		{
+			"hp": 60,
+			"dmg": 52
+		},
+		{
+			"hp": 65,
+			"dmg": 62
+		},
+		{
+			"hp": 70,
+			"dmg": 72
+		},
+		{
+			"hp": 75,
+			"dmg": 82
+		},
+		{
+			"hp": 80,
+			"dmg": 92
+		}
+	],
+	"hasEvolution": true,
+	"evolutionExtras": [
+		{
+			"poisonPerSec": 2
+		},
+		{
+			"poisonPerSec": 4
+		},
+		{
+			"poisonPerSec": 6
+		},
+		{
+			"poisonPerSec": 8
+		},
+		{
+			"poisonPerSec": 10
+		},
+		{
+			"poisonPerSec": 12
+		},
+		{
+			"poisonPerSec": 14
+		},
+		{
+			"poisonPerSec": 16
+		},
+		{
+			"poisonPerSec": 18
+		}
+	],
+	"respawnCyclesToEvolve": 4,
+	"status": {
+		"movSpeed": 1.8,
+		"atkSpeed": 1.8,
+		"atkRange": 8.5
+	}
+}

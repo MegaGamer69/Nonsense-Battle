@@ -1,0 +1,50 @@
+{
+	"name": "O Comdedor De Cu",
+	"description": "O comedor de cu, um criminoso que invairá sua casa à madrugada",
+	"statusPerLvl": [
+		{
+			"hp": 80,
+			"dmg": 8
+		},
+		{
+			"hp": 85,
+			"dmg": 12
+		},
+		{
+			"hp": 90,
+			"dmg": 16
+		},
+		{
+			"hp": 95,
+			"dmg": 24
+		},
+		{
+			"hp": 100,
+			"dmg": 32
+		},
+		{
+			"hp": 105,
+			"dmg": 48
+		},
+		{
+			"hp": 115,
+			"dmg": 64
+		},
+		{
+			"hp": 145,
+			"dmg": 80
+		},
+		{
+			"hp": 160,
+			"dmg": 96
+		}
+	],
+	"hasEvolution": false,
+	"evolutionExtras": [],
+	"respawnCyclesToEvolve": 0,
+	"status": {
+		"movSpeed": 2.0,
+		"atkSpeed": 1.1,
+		"atkRange": 1.0
+	}
+}

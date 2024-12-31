@@ -1,0 +1,50 @@
+{
+	"name": "Ladrão Idiota",
+	"description": "Reza a lenda de que ele fez o Cuzcuz paulista depois de roubar a geladeira de um baiano.",
+	"statusPerLvl": [
+		{
+			"hp": 88,
+			"dmg": 8
+		},
+		{
+			"hp": 100,
+			"dmg": 12
+		},
+		{
+			"hp": 102,
+			"dmg": 
+		},
+		{
+			"hp": 104,
+			"dmg": 30
+		},
+		{
+			"hp": 106,
+			"dmg": 43
+		},
+		{
+			"hp": 108,
+			"dmg": 46
+		},
+		{
+			"hp": 110,
+			"dmg": 49
+		},
+		{
+			"hp": 112,
+			"dmg": 52
+		},
+		{
+			"hp": 114,
+			"dmg": 55
+		}
+	],
+	"hasEvolution": false,
+	"evolutionExtras": [],
+	"respawnCyclesToEvolve": 0,
+	"status": {
+		"movSpeed": 2.2,
+		"atkSpeed": 1.2,
+		"atkRange": 1.0
+	}
+}

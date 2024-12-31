@@ -1,0 +1,50 @@
+{
+	"name": "Bruxa do 71",
+	"description": "Não aceite seus doces. Ela e satanás (seu gato de estimação) são piores que Gargamel e seu gato.",
+	"statusPerLvl": [
+		{
+			"hp": 103,
+			"dmg": 35
+		},
+		{
+			"hp": 106,
+			"dmg": 40
+		},
+		{
+			"hp": 109,
+			"dmg": 45
+		},
+		{
+			"hp": 111,
+			"dmg": 50
+		},
+		{
+			"hp": 113,
+			"dmg": 55
+		},
+		{
+			"hp": 116,
+			"dmg": 60
+		},
+		{
+			"hp": 119,
+			"dmg": 65
+		},
+		{
+			"hp": 121,
+			"dmg": 70
+		},
+		{
+			"hp": 123,
+			"dmg": 75
+		}
+	],
+	"hasEvolution": false,
+	"evolutionExtras": [],
+	"respawnCyclesToEvolve": 0,
+	"status": {
+		"movSpeed": 2.0,
+		"atkSpeed": 1.0,
+		"atkRange": 4.0
+	}
+}

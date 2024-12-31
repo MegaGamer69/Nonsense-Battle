@@ -1,0 +1,50 @@
+{
+	"name": "Dr. Protozoário",
+	"description": "Dr. Protozoário, um doutor meio estranho... usando calcinha.",
+	"statusPerLvl": [
+		{
+			"hp": 73,
+			"dmg": 8
+		},
+		{
+			"hp": 83,
+			"dmg": 18
+		},
+		{
+			"hp": 93,
+			"dmg": 28
+		},
+		{
+			"hp": 103,
+			"dmg": 38
+		},
+		{
+			"hp": 113,
+			"dmg": 48
+		},
+		{
+			"hp": 123,
+			"dmg": 58
+		},
+		{
+			"hp": 133,
+			"dmg": 68
+		},
+		{
+			"hp": 143,
+			"dmg": 78
+		},
+		{
+			"hp": 153,
+			"dmg": 88
+		}
+	],
+	"hasEvolution": false,
+	"evolutionExtras": [],
+	"respawnCyclesToEvolve": 0,
+	"status": {
+		"movSpeed": 1.5,
+		"atkSpeed": 1.4,
+		"atkRange": 6.0
+	}
+}

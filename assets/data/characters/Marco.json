@@ -1,0 +1,50 @@
+{
+	"name": "Marco",
+	"description": "Um macaco obeso que criou conciência.",
+	"statusPerLvl": [
+		{
+			"hp": 240,
+			"dmg": 44
+		},
+		{
+			"hp": 260,
+			"dmg": 46
+		},
+		{
+			"hp": 280,
+			"dmg": 48
+		},
+		{
+			"hp": 300,
+			"dmg": 50
+		},
+		{
+			"hp": 320,
+			"dmg": 52
+		},
+		{
+			"hp": 340,
+			"dmg": 54
+		},
+		{
+			"hp": 360,
+			"dmg": 56
+		},
+		{
+			"hp": 380,
+			"dmg": 58
+		},
+		{
+			"hp": 400,
+			"dmg": 60
+		}
+	],
+	"hasEvolution": false,
+	"evolutionExtras": [],
+	"respawnCyclesToEvolve": 0,
+	"status": {
+		"movSpeed": 1.4,
+		"atkSpeed": 2.2,
+		"atkRange": 1.5
+	}
+}

@@ -1,0 +1,87 @@
+{
+	"name": "Arthur",
+	"description": "Arthur é um femboy que sofreu nas mãos de seu pai.",
+	"statusPerLvl": [
+		{
+			"hp": 75,
+			"dmg": 20
+		},
+		{
+			"hp": 100,
+			"dmg": 25
+		},
+		{
+			"hp": 125,
+			"dmg": 30
+		},
+		{
+			"hp": 150,
+			"dmg": 35
+		},
+		{
+			"hp": 175,
+			"dmg": 40
+		},
+		{
+			"hp": 200,
+			"dmg": 45
+		},
+		{
+			"hp": 225,
+			"dmg": 50
+		},
+		{
+			"hp": 250,
+			"dmg": 55
+		},
+		{
+			"hp": 275,
+			"dmg": 60
+		}
+	],
+	"hasEvolution": true,
+	"evolutionExtras": [
+		{
+			"healPerKill": 8,
+			"maxHealFactor": 80
+		},
+		{
+			"healPerKill": 10,
+			"maxHealFactor": 110
+		},
+		{
+			"healPerKill": 12,
+			"maxHealFactor": 135
+		},
+		{
+			"healPerKill": 14,
+			"maxHealFactor": 160
+		},
+		{
+			"healPerKill": 16,
+			"maxHealFactor": 185
+		},
+		{
+			"healPerKill": 18,
+			"maxHealFactor": 210
+		},
+		{
+			"healPerKill": 20,
+			"maxHealFactor": 235
+		},
+		{
+			"healPerKill": 22,
+			"maxHealFactor": 260
+		},
+		{
+			"healPerKill": 24,
+			"maxHealFactor": 285
+		}
+	],
+	"respawnCyclesToEvolve": 3,
+	"status": {
+		"movSpeed": 2.0,
+		"atkSpeed": 0.8,
+		"atkRange": 5.5
+	}
+}

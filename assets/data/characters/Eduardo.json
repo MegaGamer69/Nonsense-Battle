@@ -1,0 +1,50 @@
+{
+	"name": "Eduardo",
+	"description": "Eduardo.",
+	"statusPerLvl": [
+		{
+			"hp": 100,
+			"dmg": 5
+		},
+		{
+			"hp": 120,
+			"dmg": 7
+		},
+		{
+			"hp": 140,
+			"dmg": 9
+		},
+		{
+			"hp": 160,
+			"dmg": 11
+		},
+		{
+			"hp": 180,
+			"dmg": 13
+		},
+		{
+			"hp": 200,
+			"dmg": 15
+		},
+		{
+			"hp": 220,
+			"dmg": 17
+		},
+		{
+			"hp": 240,
+			"dmg": 19
+		},
+		{
+			"hp": 260,
+			"dmg": 21
+		}
+	],
+	"hasEvolution": false,
+	"evolutionExtras": [],
+	"respawnCyclesToEvolve": 0,
+	"status": {
+		"movSpeed": 1.0,
+		"atkSpeed": 1.0,
+		"atkRange": 1.0
+	}
+}

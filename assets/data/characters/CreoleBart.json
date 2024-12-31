@@ -1,0 +1,50 @@
+{
+	"name": "Bart Crioulo",
+	"description": "Bart Crioulo, namorado de Hitler.",
+	"statusPerLvl": [
+		{
+			"hp": 300,
+			"dmg": 10
+		},
+		{
+			"hp": 311,
+			"dmg": 15
+		},
+		{
+			"hp": 322,
+			"dmg": 20
+		},
+		{
+			"hp": 333,
+			"dmg": 25
+		},
+		{
+			"hp": 344,
+			"dmg": 30
+		},
+		{
+			"hp": 355,
+			"dmg": 35
+		},
+		{
+			"hp": 366,
+			"dmg": 40
+		},
+		{
+			"hp": 377,
+			"dmg": 45
+		},
+		{
+			"hp": 388,
+			"dmg": 50
+		}
+	],
+	"hasEvolution": false,
+	"evolutionExtras": [],
+	"respawnCyclesToEvolve": 0,
+	"status": {
+		"movSpeed": 1.0,
+		"atkSpeed": 2.0,
+		"atkRange": 1.0
+	}
+}

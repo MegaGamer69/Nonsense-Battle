@@ -1,0 +1,50 @@
+{
+	"name": "Elon Musk",
+	"description": "Elon Musk uma vez disse que queria cagar...",
+	"statusPerLvl": [
+		{
+			"hp": 100,
+			"dmg": 15
+		},
+		{
+			"hp": 120,
+			"dmg": 17
+		},
+		{
+			"hp": 140,
+			"dmg": 19
+		},
+		{
+			"hp": 160,
+			"dmg": 21
+		},
+		{
+			"hp": 180,
+			"dmg": 23
+		},
+		{
+			"hp": 200,
+			"dmg": 25
+		},
+		{
+			"hp": 220,
+			"dmg": 29
+		},
+		{
+			"hp": 240,
+			"dmg": 31
+		},
+		{
+			"hp": 260,
+			"dmg": 33
+		}
+	],
+	"hasEvolution": false,
+	"evolutionExtras": [],
+	"respawnCyclesToEvolve": 0,
+	"status": {
+		"movSpeed": 2.0,
+		"atkSpeed": 0.9,
+		"atkRange": 6.5
+	}
+}

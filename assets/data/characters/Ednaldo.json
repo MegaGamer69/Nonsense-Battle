@@ -1,0 +1,50 @@
+{
+	"name": "Ednaldo",
+	"description": "Ednaldo pereira, o deus de deus, quem não acredita nele se fudeu.",
+	"statusPerLvl": [
+		{
+			"hp": 160,
+			"dmg": 14
+		},
+		{
+			"hp": 180,
+			"dmg": 16
+		},
+		{
+			"hp": 200,
+			"dmg": 18
+		},
+		{
+			"hp": 220,
+			"dmg": 20
+		},
+		{
+			"hp": 240,
+			"dmg": 22
+		},
+		{
+			"hp": 260,
+			"dmg": 24
+		},
+		{
+			"hp": 280,
+			"dmg": 26
+		},
+		{
+			"hp": 300,
+			"dmg": 28
+		},
+		{
+			"hp": 320,
+			"dmg": 30
+		}
+	],
+	"hasEvolution": false,
+	"evolutionExtras": [],
+	"respawnCyclesToEvolve": 0,
+	"status": {
+		"movSpeed": 1.2,
+		"atkSpeed": 1.5,
+		"atkRange": 1.0
+	}
+}

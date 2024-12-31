@@ -1,0 +1,50 @@
+{
+	"name": "Granny",
+	"description": "Uma idosa com um taco... mas não é um alimento...",
+	"statusPerLvl": [
+		{
+			"hp": 85,
+			"dmg": 46
+		},
+		{
+			"hp": 90,
+			"dmg": 48
+		},
+		{
+			"hp": 95,
+			"dmg": 50
+		},
+		{
+			"hp": 100,
+			"dmg": 52
+		},
+		{
+			"hp": 105,
+			"dmg": 54
+		},
+		{
+			"hp": 110,
+			"dmg": 56
+		},
+		{
+			"hp": 115,
+			"dmg": 58
+		},
+		{
+			"hp": 120,
+			"dmg": 60
+		},
+		{
+			"hp": 125,
+			"dmg": 62
+		}
+	],
+	"hasEvolution": false,
+	"evolutionExtras": [],
+	"respawnCyclesToEvolve": 0,
+	"status": {
+		"movSpeed": 1.7,
+		"atkSpeed": 1.3,
+		"atkRange": 1.0
+	}
+}

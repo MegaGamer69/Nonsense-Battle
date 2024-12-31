@@ -1,0 +1,50 @@
+{
+	"name": "Thais",
+	"description": "Esta é thaís carla... e não chame ela de gorda, por favor.",
+	"statusPerLvl": [
+		{
+			"hp": 300,
+			"dmg": 44
+		},
+		{
+			"hp": 320,
+			"dmg": 46
+		},
+		{
+			"hp": 340,
+			"dmg": 48
+		},
+		{
+			"hp": 360,
+			"dmg": 50
+		},
+		{
+			"hp": 380,
+			"dmg": 52
+		},
+		{
+			"hp": 400,
+			"dmg": 54
+		},
+		{
+			"hp": 420,
+			"dmg": 56
+		},
+		{
+			"hp": 440,
+			"dmg": 58
+		},
+		{
+			"hp": 460,
+			"dmg": 60
+		}
+	],
+	"hasEvolution": false,
+	"evolutionExtras": [],
+	"respawnCyclesToEvolve": 0,
+	"status": {
+		"movSpeed": 2.0,
+		"atkSpeed": 1.0,
+		"atkRange": 1.0
+	}
+}
