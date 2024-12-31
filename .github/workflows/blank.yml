@@ -1,0 +1,24 @@
+name: CI
+
+on:
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - uses: krdlab/setup-haxe@v1.5.1
+        with:
+          haxe-version: 4.3.6
+      - uses: actions/checkout@v4
+      - name: Install cool dependencies
+        run: |
+         haxelib install lime
+         haxelib install flixel
+      - name: Build in HashLink
+        run: haxelib run lime build hl
+      - uses: actions/upload-artifact@v4.5.0
+        with:
+          name: HL Build
+          path: ./export/bin/*
