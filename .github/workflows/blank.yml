@@ -21,4 +21,4 @@ jobs:
       - uses: actions/upload-artifact@v4.5.0
         with:
           name: HL Build
-          path: ./export/bin/*
+          path: ./export/hl/bin/*
