@@ -19,7 +19,6 @@ jobs:
       - name: Build in HashLink
         run: |
          haxelib run lime build hl
-         haxelib run lime run hl
       - uses: actions/upload-artifact@v4.5.0
         with:
           name: HL Build
