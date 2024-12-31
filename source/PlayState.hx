@@ -55,7 +55,7 @@ class PlayState extends FlxState
 		
 		while(hand.length < 4 && avaliable.length - 1)
 		{
-			
+			// Temporariamente vazio
 		}
 	}
 
