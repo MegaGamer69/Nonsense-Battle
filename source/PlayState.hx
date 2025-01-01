@@ -3,7 +3,7 @@ package;
 import flixel.FlxG;
 import flixel.FlxState;
 import flixel.FlxSprite;
-import flixel.group.FlxTypedSpriteGroup;
+import flixel.group.FlxSpriteGroup;
 import haxe.Json;
 import sys.io.File;
 
@@ -11,23 +11,23 @@ class PlayState extends FlxState
 {
 	private var mainHand:Array<FlxCharacter>;
 	private var avaliable:Array<FlxCharacter>;
-		
+	
 	private var characters:Array<FlxCharacter> = [
-		new FlxCharacter("Arthur",      1, 0 ),
-		new FlxCharacter("Ass",         1, 1 ),
-		new FlxCharacter("Ednaldo",     1, 2 ),
-		new FlxCharacter("Eduardo",     1, 3 ),
-		new FlxCharacter("Elon",        1, 4 ),
-		new FlxCharacter("Granny",      1, 5 ),
-		new FlxCharacter("Hitler",      1, 6 ),
-		new FlxCharacter("Marco",       1, 7 ),
-		new FlxCharacter("Thais",       1, 8 ),
-		new FlxCharacter("Witch71",     1, 9 ),
-		new FlxCharacter("Psychoduck",  1, 10),
-		new FlxCharacter("CreoleBart",  1, 11),
-		new FlxCharacter("MatheusGirl", 1, 12),
-		new FlxCharacter("Protozoario", 1, 13),
-		new FlxCharacter("IdiotThief",  1, 14)
+		new FlxCharacter("Arthur",      1, 0 ), // Arthur Femboy
+		new FlxCharacter("Ass",         1, 1 ), // O Comedor De Cu
+		new FlxCharacter("Ednaldo",     1, 2 ), // Ednaldo Pereira
+		new FlxCharacter("Eduardo",     1, 3 ), // Eduardo Fazballs
+		new FlxCharacter("Elon",        1, 4 ), // Elon Musk
+		new FlxCharacter("Granny",      1, 5 ), // Granny
+		new FlxCharacter("Hitler",      1, 6 ), // Hitler
+		new FlxCharacter("Marco",       1, 7 ), // Marco
+		new FlxCharacter("Thais",       1, 8 ), // Thaís Carla
+		new FlxCharacter("Witch71",     1, 9 ), // Bruxa Do 71
+		new FlxCharacter("Psychoduck",  1, 10), // Psicopato
+		new FlxCharacter("CreoleBart",  1, 11), // Bart Crioulo
+		new FlxCharacter("MatheusGirl", 1, 12), // Matheus Do 4
+		new FlxCharacter("Protozoario", 1, 13), // Dr. Protozoário
+		new FlxCharacter("IdiotThief",  1, 14)  // Ladrão Idiota
 	];
 	
 	private var deck:FlxTypedSpriteGroup<FlxCharacter>;
@@ -41,7 +41,7 @@ class PlayState extends FlxState
 		
 		avaliable = deck.members.copy();
 		
-		hand = [];
+		mainHand = [];
 		
 		for(i in 0 ... Std.int(Math.min(8, characters.length)))
 		{
@@ -53,9 +53,12 @@ class PlayState extends FlxState
 			mainHand.add(deck[i]);
 		}
 		
-		while(hand.length < 4 && avaliable.length - 1)
+		while(mainHand.length < 4 && avaliable.length - 1)
 		{
-			// Temporariamente vazio
+			var index:Int = FlxG.random.int(avaliable.length - 1);
+			
+			mainHand.push(avaliable[index]);
+			avaliable.splice(index, 1);
 		}
 	}
 
@@ -83,15 +86,20 @@ class FlxCharacter extends FlxSprite
 	
 	private var hasEvolution:Bool;
 	
-	private var evoltion:Dynamic = {};
+	private var evolution:Dynamic = {};
 	
 	public function new(name:String, level:Int, id:Int)
 	{
 		super();
 		
-		if(level < 1 || level > 9)
+		if(level < 1)
 		{
 			level = 1;
+		}
+		
+		if(level > 9)
+		{
+			level = 9;
 		}
 		
 		if(id > 0)
@@ -123,8 +131,8 @@ class FlxCharacter extends FlxSprite
 		
 		for(i in 1...10)
 		{
-			Sys.println(i + " HP: " + attributeToString(evolution.hp));
-			Sys.println(i + " DMG: " + attributeToString(evolution[i - 1].dmg));
+			Sys.println("Level ${i} HP: ${json.statusPerLvl[i - 1].hp}");
+			Sys.println("Level ${i} DMG: ${json.statusPerLvl[i - 1].dmg}");
 		}
 		
 		Sys.println("Tem evolução: " + attributeToString(hasEvolution));
@@ -155,7 +163,7 @@ class FlxCharacter extends FlxSprite
 	{
 		if(hasEvolution)
 		{
-			evolution = json.evolutionExtras[currentLvl - 1]
+			evolution = json.evolutionExtras[currentLvl - 1];
 		}
 	}
 	
