@@ -1,0 +1,105 @@
+{
+	"name": "Demônio Maconheiro",
+	"description": "Um cachorro demoníaco que após experimentar um charuto, ficou viciado. ESPALHE A FUMAÇA!",
+	"statusPerLvl": [
+		{
+			"hp": 108,
+			"dmg": 18
+		},
+		{
+			"hp": 110,
+			"dmg": 20
+		},
+		{
+			"hp": 112,
+			"dmg": 22
+		},
+		{
+			"hp": 114,
+			"dmg": 24
+		},
+		{
+			"hp": 116,
+			"dmg": 26
+		},
+		{
+			"hp": 118,
+			"dmg": 28
+		},
+		{
+			"hp": 120,
+			"dmg": 30
+		},
+		{
+			"hp": 122,
+			"dmg": 32
+		},
+		{
+			"hp": 124,
+			"dmg": 34
+		}
+	],
+	"hasEvolution": true,
+	"evolutionExtras": [
+		{
+			"smokeRadius": 5.0,
+			"smokeDamagePerTick": 2,
+			"smokeDuration": 10.0,
+			"smokeTickTime": 0.2
+		},
+		{
+			"smokeRadius": 5.0,
+			"smokeDamagePerTick": 4,
+			"smokeDuration": 10.0,
+			"smokeTickTime": 0.2
+		},
+		{
+			"smokeRadius": 5.0,
+			"smokeDamagePerTick": 6,
+			"smokeDuration": 10.0,
+			"smokeTickTime": 0.2
+		},
+		{
+			"smokeRadius": 5.0,
+			"smokeDamagePerTick": 10,
+			"smokeDuration": 10.0,
+			"smokeTickTime": 0.2
+		},
+		{
+			"smokeRadius": 5.0,
+			"smokeDamagePerTick": 12,
+			"smokeDuration": 10.0,
+			"smokeTickTime": 0.2
+		},
+		{
+			"smokeRadius": 5.0,
+			"smokeDamagePerTick": 14,
+			"smokeDuration": 10.0,
+			"smokeTickTime": 0.2
+		},
+		{
+			"smokeRadius": 5.0,
+			"smokeDamagePerTick": 16,
+			"smokeDuration": 10.0,
+			"smokeTickTime": 0.2
+		},
+		{
+			"smokeRadius": 5.0,
+			"smokeDamagePerTick": 18,
+			"smokeDuration": 10.0,
+			"smokeTickTime": 0.2
+		},
+		{
+			"smokeRadius": 5.0,
+			"smokeDamagePerTick": 20,
+			"smokeDuration": 10.0,
+			"smokeTickTime": 0.2
+		}
+	],
+	"respawnCyclesToEvolve": 4,
+	"status": {
+		"movSpeed": 2.6,
+		"atkSpeed": 0.5,
+		"atkRange": 0.5
+	}
+}

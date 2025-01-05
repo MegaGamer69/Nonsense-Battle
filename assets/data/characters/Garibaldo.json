@@ -1,0 +1,96 @@
+{
+	"name": "Gari Fumante",
+	"description": "Um gari que limpa seus oponentes... Literalmente!",
+	"statusPerLvl": [
+		{
+			"hp": 100,
+			"dmg": 10
+		},
+		{
+			"hp": 105,
+			"dmg": 12
+		},
+		{
+			"hp": 110,
+			"dmg": 14
+		},
+		{
+			"hp": 115,
+			"dmg": 16
+		},
+		{
+			"hp": 120,
+			"dmg": 18
+		},
+		{
+			"hp": 125,
+			"dmg": 20
+		},
+		{
+			"hp": 130,
+			"dmg": 22
+		},
+		{
+			"hp": 135,
+			"dmg": 24
+		},
+		{
+			"hp": 140,
+			"dmg": 26
+		}
+	],
+	"hasEvolution": true,
+	"evolutionExtras": [
+		{
+			"broomAttackDamage": 80,
+			"enemyDmgReduction": 0.5,
+			"shieldPoints": 88
+		},
+		{
+			"broomAttackDamage": 81,
+			"enemyDmgReduction": 0.55,
+			"shieldPoints": 90
+		},
+		{
+			"broomAttackDamage": 82,
+			"enemyDmgReduction": 0.6,
+			"shieldPoints": 92
+		},
+		{
+			"broomAttackDamage": 83,
+			"enemyDmgReduction": 0.65,
+			"shieldPoints": 94
+		},
+		{
+			"broomAttackDamage": 84,
+			"enemyDmgReduction": 0.7,
+			"shieldPoints": 96
+		},
+		{
+			"broomAttackDamage": 85,
+			"enemyDmgReduction": 0.75,
+			"shieldPoints": 98
+		},
+		{
+			"broomAttackDamage": 86,
+			"enemyDmgReduction": 0.8,
+			"shieldPoints": 100
+		},
+		{
+			"broomAttackDamage": 87,
+			"enemyDmgReduction": 0.85,
+			"shieldPoints": 102
+		},
+		{
+			"broomAttackDamage": 88,
+			"enemyDmgReduction": 0.9,
+			"shieldPoints": 104
+		}
+	],
+	"respawnCyclesToEvolve": 5,
+	"status": {
+		"movSpeed": 2.4,
+		"atkSpeed": 1.2,
+		"atkRange": 1.0
+	}
+}

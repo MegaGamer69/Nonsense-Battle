@@ -42,66 +42,66 @@
 	"hasEvolution": true,
 	"evolutionExtras": [
 		{
-			"sniperRange": 16.0,
+			"sniperRange": 9999.9,
 			"sniperDamage": 40,
 			"maxSniperBullets": 6,
-			"sniperAtkSpeed": 1.2,
+			"sniperAtkSpeed": 1.0,
 			"sniperBulletPerKill": 1
 		},
 		{
-			"sniperRange": 16.0,
+			"sniperRange": 9999.9,
 			"sniperDamage": 50,
 			"maxSniperBullets": 6,
-			"sniperAtkSpeed": 1.2,
+			"sniperAtkSpeed": 1.0,
 			"sniperBulletPerKill": 1
 		},
 		{
-			"sniperRange": 16.0,
+			"sniperRange": 9999.9,
 			"sniperDamage": 60,
 			"maxSniperBullets": 6,
-			"sniperAtkSpeed": 1.2,
+			"sniperAtkSpeed": 1.0,
 			"sniperBulletPerKill": 1
 		},
 		{
-			"sniperRange": 16.0,
+			"sniperRange": 9999.9,
 			"sniperDamage": 70,
 			"maxSniperBullets": 6,
-			"sniperAtkSpeed": 1.2,
+			"sniperAtkSpeed": 1.0,
 			"sniperBulletPerKill": 2
 		},
 		{
-			"sniperRange": 16.0,
+			"sniperRange": 9999.9,
 			"sniperDamage": 80,
 			"masSniperBullets": 6,
-			"sniperAtkSpeed": 1.2,
+			"sniperAtkSpeed": 1.0,
 			"sniperBulletPerKill": 2
 		},
 		{
-			"sniperRange": 16.0,
+			"sniperRange": 9999.9,
 			"sniperDamage": 90,
 			"maxSniperBullets": 6,
-			"sniperAtkSpeed": 1.2,
+			"sniperAtkSpeed": 1.0,
 			"sniperBulletPerKill": 2
 		},
 		{
-			"sniperRange": 16.0,
+			"sniperRange": 9999.9,
 			"sniperDamage": 100,
 			"maxSniperBullets": 6,
-			"sniperAtkSpeed": 1.2,
+			"sniperAtkSpeed": 1.0,
 			"sniperBulletPerKill": 3
 		},
 		{
-			"sniperRange": 16.0,
+			"sniperRange": 9999.9,
 			"sniperDamage": 110,
 			"maxSniperBullets": 6,
-			"sniperAtkSpeed": 1.2,
+			"sniperAtkSpeed": 1.0,
 			"sniperBulletPerKill": 3
 		},
 		{
-			"sniperRange": 16.0,
+			"sniperRange": 9999.9,
 			"sniperDamage": 120,
 			"maxSniperBullets": 6,
-			"sniperAtkSpeed": 1.2,
+			"sniperAtkSpeed": 1.0,
 			"sniperBulletPerKill": 3
 		}
 	],
