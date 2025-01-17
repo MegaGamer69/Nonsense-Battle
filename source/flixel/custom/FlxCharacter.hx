@@ -1,4 +1,4 @@
-package flixel.customs;
+package flixel.custom;
 
 import flixel.FlxSprite;
 import haxe.Json;
