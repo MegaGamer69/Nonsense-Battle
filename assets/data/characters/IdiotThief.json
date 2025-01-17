@@ -4,35 +4,35 @@
 	"statusPerLvl": [
 		{
 			"hp": 88,
-			"dmg": 8
+			"dmg": 9
 		},
 		{
 			"hp": 100,
-			"dmg": 12
+			"dmg": 11
 		},
 		{
 			"hp": 102,
-			"dmg": 
+			"dmg": 13
 		},
 		{
 			"hp": 104,
-			"dmg": 30
+			"dmg": 15
 		},
 		{
 			"hp": 106,
-			"dmg": 43
+			"dmg": 18
 		},
 		{
 			"hp": 108,
-			"dmg": 46
+			"dmg": 24
 		},
 		{
 			"hp": 110,
-			"dmg": 49
+			"dmg": 30
 		},
 		{
 			"hp": 112,
-			"dmg": 52
+			"dmg": 44
 		},
 		{
 			"hp": 114,
@@ -46,5 +46,6 @@
 		"movSpeed": 2.2,
 		"atkSpeed": 1.2,
 		"atkRange": 1.0
-	}
+	},
+	"funct": "killer"
 }

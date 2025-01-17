@@ -46,5 +46,6 @@
 		"movSpeed": 1.7,
 		"atkSpeed": 1.3,
 		"atkRange": 1.0
-	}
+	},
+	"funct": "tank-killer"
 }

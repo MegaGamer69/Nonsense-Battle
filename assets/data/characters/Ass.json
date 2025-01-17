@@ -1,6 +1,6 @@
 {
 	"name": "O Comdedor De Cu",
-	"description": "O comedor de cu, um criminoso que invairá sua casa à madrugada",
+	"description": "O comedor de cu, um criminoso que invairá sua casa à madrugada.",
 	"statusPerLvl": [
 		{
 			"hp": 80,
@@ -46,5 +46,6 @@
 		"movSpeed": 2.0,
 		"atkSpeed": 1.1,
 		"atkRange": 1.0
-	}
+	},
+	"funct": "mini-tank-killer"
 }

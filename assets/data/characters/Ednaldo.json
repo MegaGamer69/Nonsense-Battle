@@ -46,5 +46,6 @@
 		"movSpeed": 1.2,
 		"atkSpeed": 1.5,
 		"atkRange": 1.0
-	}
+	},
+	"funct": "tank"
 }

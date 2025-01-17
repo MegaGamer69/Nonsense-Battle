@@ -1,6 +1,6 @@
 {
 	"name": "Thais",
-	"description": "Esta é thaís carla... e não chame ela de gorda, por favor.",
+	"description": "Esta é thaís carla, não chame ela de gorda, por favor, você não tem vantagem.",
 	"statusPerLvl": [
 		{
 			"hp": 300,
@@ -46,5 +46,6 @@
 		"movSpeed": 2.0,
 		"atkSpeed": 1.0,
 		"atkRange": 1.0
-	}
+	},
+	"funct": "fast-tank"
 }

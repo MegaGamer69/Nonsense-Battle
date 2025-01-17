@@ -1,0 +1,97 @@
+{
+	"name": "Sandro Souza",
+	"description": "Sandro, um esqueleto de olhos azuis e moletom azul! Isso é familiar...",
+	"statusPerLvl": [
+		{
+			"hp": 59,
+			"dmg": 33
+		},
+		{
+			"hp": 61,
+			"dmg": 36
+		},
+		{
+			"hp": 64,
+			"dmg": 39
+		},
+		{
+			"hp": 67,
+			"dmg": 42
+		},
+		{
+			"hp": 70,
+			"dmg": 45
+		},
+		{
+			"hp": 73,
+			"dmg": 48
+		},
+		{
+			"hp": 76,
+			"dmg": 51
+		},
+		{
+			"hp": 79,
+			"dmg": 54
+		},
+		{
+			"hp": 82,
+			"dmg": 58
+		}
+	],
+	"hasEvolution": true,
+	"evolutionExtras": [
+		{
+			"potatoRainTime": 5.0,
+			"potatoDamage": 80,
+			"potatoEffectArea": 1.5
+		},
+		{
+			"potatoRainTime": 5.0,
+			"potatoDamage": 84,
+			"potatoEffectArea": 1.5
+		},
+		{
+			"potatoRainTime": 5.0,
+			"potatoDamage": 88,
+			"potatoEffectArea": 1.5
+		},
+		{
+			"potatoRainTime": 6.5,
+			"potatoDamage": 92,
+			"potatoEffectArea": 1.5
+		},
+		{
+			"potatoRainTime": 6.5,
+			"potatoDamage": 96,
+			"potatoEffectArea": 1.5
+		},
+		{
+			"potatoRainTime": 6.5,
+			"potatoDamage": 100,
+			"potatoEffectArea": 1.5
+		},
+		{
+			"potatoRainTime": 8.0,
+			"potatoDamage": 104,
+			"potatoEffectArea": 1.5
+		},
+		{
+			"potatoRainTime": 8.0,
+			"potatoDamage": 108,
+			"potatoEffectArea": 1.5
+		},
+		{
+			"potatoRainTime": 8.0,
+			"potatoDamage": 112,
+			"potatoEffectArea": 1.5
+		}
+	],
+	"respawnCyclesToEvolve": 5,
+	"status": {
+		"movSpeed": 2.8,
+		"atkSpeed": 1.0,
+		"atkRange": 4.0
+	},
+	"funct": "fast-support"
+}

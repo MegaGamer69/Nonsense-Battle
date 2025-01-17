@@ -101,5 +101,6 @@
 		"movSpeed": 2.6,
 		"atkSpeed": 0.5,
 		"atkRange": 0.5
-	}
+	},
+	"funct": "killer"
 }

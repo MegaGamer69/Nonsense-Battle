@@ -1,50 +1,88 @@
 {
 	"name": "Bruxa do 71",
-	"description": "Não aceite seus doces. Ela e satanás (seu gato de estimação) são piores que Gargamel e seu gato.",
+	"description": "Não aceite seus doces. Ela e satanás (seu gato de estimação) são piores que Gargamel e Cruel (aquele gato estúpido).",
 	"statusPerLvl": [
 		{
-			"hp": 103,
-			"dmg": 35
+			"hp": 83,
+			"dmg": 10
 		},
 		{
-			"hp": 106,
-			"dmg": 40
+			"hp": 86,
+			"dmg": 13
 		},
 		{
-			"hp": 109,
-			"dmg": 45
+			"hp": 89,
+			"dmg": 16
 		},
 		{
-			"hp": 111,
-			"dmg": 50
+			"hp": 92,
+			"dmg": 19
 		},
 		{
-			"hp": 113,
-			"dmg": 55
+			"hp": 95,
+			"dmg": 23
 		},
 		{
-			"hp": 116,
-			"dmg": 60
+			"hp": 98,
+			"dmg": 26
 		},
 		{
-			"hp": 119,
-			"dmg": 65
+			"hp": 101,
+			"dmg": 29
 		},
 		{
-			"hp": 121,
-			"dmg": 70
+			"hp": 104,
+			"dmg": 33
 		},
 		{
-			"hp": 123,
-			"dmg": 75
+			"hp": 107,
+			"dmg": 36
 		}
 	],
-	"hasEvolution": false,
-	"evolutionExtras": [],
-	"respawnCyclesToEvolve": 0,
+	"hasEvolution": true,
+	"evolutionExtras": [
+		{
+			"maxAlliesHealing": 2,
+			"alliesHealPoints": 54
+		},
+		{
+			"maxAlliesHealing": 2,
+			"alliesHealPoints": 56
+		},
+		{
+			"maxAlliesHealing": 2,
+			"alliesHealPoints": 58
+		},
+		{
+			"maxAlliesHealing": 3,
+			"alliesHealPoints": 70
+		},
+		{
+			"maxAlliesHealing": 3,
+			"alliesHealPoints": 72
+		},
+		{
+			"maxAlliesHealing": 3,
+			"alliesHealPoints": 74
+		},
+		{
+			"maxAlliesHealing": 4,
+			"alliesHealPoints": 76
+		},
+		{
+			"maxAlliesHealing": 4,
+			"alliesHealPoints": 78
+		},
+		{
+			"maxAlliesHealing": 4,
+			"alliesHealPoints": 80
+		}
+	],
+	"respawnCyclesToEvolve": 4,
 	"status": {
-		"movSpeed": 2.0,
-		"atkSpeed": 1.0,
-		"atkRange": 4.0
-	}
+		"movSpeed": 2.5,
+		"atkSpeed": 0.9,
+		"atkRange": 5.0
+	},
+	"funct": "support"
 }

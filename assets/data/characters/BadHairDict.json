@@ -1,0 +1,106 @@
+{
+	"name": "Mal-Penteado Alemão",
+	"description": "Ele não é somente malvado, mas também tem um bigodinho e penteado feio.",
+	"statusPerLvl": [
+		{
+			"hp": 88,
+			"dmg": 45
+		},
+		{
+			"hp": 98,
+			"dmg": 47
+		},
+		{
+			"hp": 108,
+			"dmg": 49
+		},
+		{
+			"hp": 118,
+			"dmg": 51
+		},
+		{
+			"hp": 128,
+			"dmg": 53
+		},
+		{
+			"hp": 138,
+			"dmg": 55
+		},
+		{
+			"hp": 148,
+			"dmg": 57
+		},
+		{
+			"hp": 158,
+			"dmg": 59
+		},
+		{
+			"hp": 168,
+			"dmg": 61
+		}
+	],
+	"hasEvolution": true,
+	"evolutionExtras": [
+		{
+			"rageTimePerAttack": 10.0,
+			"rageBuff": 1.25,
+			"rageResistenceTime": 10.0,
+			"rageResistence": 0.85
+		},
+		{
+			"rageTimePerAttack": 10.0,
+			"rageBuff": 1.25,
+			"rageResistenceTime": 10.0,
+			"rageResistence": 0.85
+		},
+		{
+			"rageTimePerAttack": 10.0,
+			"rageBuff": 1.5,
+			"rageResistenceTime": 10.0,
+			"rageResistence": 0.85
+		},
+		{
+			"rageTimePerAttack": 10.0,
+			"rageBuff": 1.5,
+			"rageResistenceTime": 10.0,
+			"rageResistence": 0.8
+		},
+		{
+			"rageTimePerAttack": 10.0,
+			"rageBuff": 1.75,
+			"rageResistenceTime": 10.0,
+			"rageResistence": 0.8
+		},
+		{
+			"rageTimePerAttack": 10.0,
+			"rageBuff": 1.75,
+			"rageResistenceTime": 10.0,
+			"rageResistence": 0.8
+		},
+		{
+			"rageTimePerAttack": 10.0,
+			"rageBuff": 2.0,
+			"rageResistenceTime": 10.0,
+			"rageResistence": 0.75
+		},
+		{
+			"rageTimePerAttack": 10.0,
+			"rageBuff": 2.0,
+			"rageResistenceTime": 10.0,
+			"rageResistence": 0.75
+		},
+		{
+			"rageTimePerAttack": 10.0,
+			"rageBuff": 2.25,
+			"rageResistenceTime": 10.0,
+			"rageResistence": 0.75
+		}
+	],
+	"respawnCyclesToEvolve": 4,
+	"status": {
+		"movSpeed": 2.1,
+		"atkSpeed": 1.2,
+		"atkRange": 1.2
+	},
+	"funct": "tank-killer"
+}

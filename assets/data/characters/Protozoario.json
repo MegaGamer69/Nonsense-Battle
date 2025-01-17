@@ -46,5 +46,6 @@
 		"movSpeed": 1.5,
 		"atkSpeed": 1.4,
 		"atkRange": 6.0
-	}
+	},
+	"funct": "support"
 }

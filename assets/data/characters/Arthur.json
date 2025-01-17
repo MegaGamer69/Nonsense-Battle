@@ -1,41 +1,41 @@
 {
 	"name": "Arthur",
-	"description": "Arthur é um femboy que sofreu nas mãos de seu pai.",
+	"description": "Arthur é um femboy, seu pai era um bobalhão.",
 	"statusPerLvl": [
 		{
 			"hp": 75,
 			"dmg": 20
 		},
 		{
-			"hp": 100,
+			"hp": 70,
 			"dmg": 25
 		},
 		{
-			"hp": 125,
+			"hp": 75,
 			"dmg": 30
 		},
 		{
-			"hp": 150,
+			"hp": 80,
 			"dmg": 35
 		},
 		{
-			"hp": 175,
+			"hp": 85,
 			"dmg": 40
 		},
 		{
-			"hp": 200,
+			"hp": 90,
 			"dmg": 45
 		},
 		{
-			"hp": 225,
+			"hp": 95,
 			"dmg": 50
 		},
 		{
-			"hp": 250,
+			"hp": 100,
 			"dmg": 55
 		},
 		{
-			"hp": 275,
+			"hp": 105,
 			"dmg": 60
 		}
 	],
@@ -83,5 +83,6 @@
 		"movSpeed": 2.0,
 		"atkSpeed": 0.8,
 		"atkRange": 5.5
-	}
+	},
+	"funct": "support"
 }

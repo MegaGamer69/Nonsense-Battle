@@ -3,39 +3,39 @@
 	"description": "Elon Musk uma vez disse que queria cagar...",
 	"statusPerLvl": [
 		{
-			"hp": 100,
+			"hp": 49,
 			"dmg": 15
 		},
 		{
-			"hp": 120,
+			"hp": 53,
 			"dmg": 17
 		},
 		{
-			"hp": 140,
+			"hp": 56,
 			"dmg": 19
 		},
 		{
-			"hp": 160,
+			"hp": 59,
 			"dmg": 21
 		},
 		{
-			"hp": 180,
+			"hp": 63,
 			"dmg": 23
 		},
 		{
-			"hp": 200,
+			"hp": 66,
 			"dmg": 25
 		},
 		{
-			"hp": 220,
+			"hp": 69,
 			"dmg": 29
 		},
 		{
-			"hp": 240,
+			"hp": 73,
 			"dmg": 31
 		},
 		{
-			"hp": 260,
+			"hp": 76,
 			"dmg": 33
 		}
 	],
@@ -47,4 +47,5 @@
 		"atkSpeed": 0.9,
 		"atkRange": 6.5
 	}
+	"funct": "support"
 }

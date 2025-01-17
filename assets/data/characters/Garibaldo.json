@@ -92,5 +92,6 @@
 		"movSpeed": 2.4,
 		"atkSpeed": 1.2,
 		"atkRange": 1.0
-	}
+	},
+	"funct": "kill-condition"
 }
