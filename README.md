@@ -78,8 +78,8 @@ Caso você realmente esteja curioso, aqui vai!
     "respawnCyclesToEvolve": 0,
     "status": {
         "movSpeed": 6.66,
-		"atkSpeed": 6.66,
-		"atkRange": 6.66
+	"atkSpeed": 6.66,
+	"atkRange": 6.66
     },
     "funct": "undefined"
 }
